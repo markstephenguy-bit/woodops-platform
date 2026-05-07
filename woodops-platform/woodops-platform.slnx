@@ -1,0 +1,40 @@
+<Solution>
+  <Folder Name="/AI/">
+    <Project Path="src/AI/WoodOps.Intelligence/WoodOps.Intelligence.csproj" />
+  </Folder>
+  <Folder Name="/Core/">
+    <Project Path="src/Core/WoodOps.Application/WoodOps.Application.csproj" />
+    <Project Path="src/Core/WoodOps.Contracts/WoodOps.Contracts.csproj" />
+    <Project Path="src/Core/WoodOps.Domain/WoodOps.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Hosts/">
+    <Project Path="src/Hosts/WoodOps.Host.Api/WoodOps.Host.Api.csproj" />
+    <Project Path="src/Hosts/WoodOps.Host.Connectors/WoodOps.Host.Connectors.csproj" />
+    <Project Path="src/Hosts/WoodOps.Host.Processing/WoodOps.Host.Processing.csproj" />
+    <Project Path="src/Hosts/WoodOps.Host.Scheduler/WoodOps.Host.Scheduler.csproj" />
+    <Project Path="WoodOps.Host.Portal/WoodOps.Host.Portal.csproj" Id="77598987-c9e0-436d-88c5-eee27436c746" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="src/Infrastructure/WoodOps.Cache/WoodOps.Cache.csproj" />
+    <Project Path="src/Infrastructure/WoodOps.Graph/WoodOps.Graph.csproj" />
+    <Project Path="src/Infrastructure/WoodOps.Messaging/WoodOps.Messaging.csproj" />
+    <Project Path="src/Infrastructure/WoodOps.Observability/WoodOps.Observability.csproj" />
+    <Project Path="src/Infrastructure/WoodOps.Persistence/WoodOps.Persistence.csproj" />
+    <Project Path="src/Infrastructure/WoodOps.Retrieval/WoodOps.Retrieval.csproj" />
+    <Project Path="src/Infrastructure/WoodOps.Runtime/WoodOps.Runtime.csproj" />
+    <Project Path="src/Infrastructure/WoodOps.Storage/WoodOps.Storage.csproj" />
+  </Folder>
+  <Folder Name="/Integration/">
+    <Project Path="src/Integration/WoodOps.Integrations/WoodOps.Integrations.csproj" />
+  </Folder>
+  <Folder Name="/Processing/">
+    <Project Path="src/Processing/WoodOps.Ingest/WoodOps.Ingest.csproj" />
+    <Project Path="src/Processing/WoodOps.Projection/WoodOps.Projection.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="tests/WoodOps.Application.Tests/WoodOps.Application.Tests.csproj" />
+    <Project Path="tests/WoodOps.Domain.Tests/WoodOps.Domain.Tests.csproj" />
+    <Project Path="tests/WoodOps.Integration.Tests/WoodOps.Integration.Tests.csproj" />
+    <Project Path="tests/WoodOps.Persistence.Tests/WoodOps.Persistence.Tests.csproj" />
+  </Folder>
+</Solution>
