@@ -18,4 +18,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Infrastructure\WoodOps.Persistence\WoodOps.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
