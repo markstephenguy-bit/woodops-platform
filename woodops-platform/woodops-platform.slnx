@@ -10,9 +10,9 @@
   <Folder Name="/Hosts/">
     <Project Path="src/Hosts/WoodOps.Host.Api/WoodOps.Host.Api.csproj" />
     <Project Path="src/Hosts/WoodOps.Host.Connectors/WoodOps.Host.Connectors.csproj" />
+    <Project Path="src/Hosts/WoodOps.Host.Portal/WoodOps.Host.Portal.csproj" Id="818f93e3-95cf-4c8a-bf44-a75c27d90167" />
     <Project Path="src/Hosts/WoodOps.Host.Processing/WoodOps.Host.Processing.csproj" />
     <Project Path="src/Hosts/WoodOps.Host.Scheduler/WoodOps.Host.Scheduler.csproj" />
-    <Project Path="WoodOps.Host.Portal/WoodOps.Host.Portal.csproj" Id="77598987-c9e0-436d-88c5-eee27436c746" />
   </Folder>
   <Folder Name="/Infrastructure/">
     <Project Path="src/Infrastructure/WoodOps.Cache/WoodOps.Cache.csproj" />

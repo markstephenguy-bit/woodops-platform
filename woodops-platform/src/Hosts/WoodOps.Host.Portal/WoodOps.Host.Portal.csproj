@@ -5,10 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
   </PropertyGroup>
 
 
   <ItemGroup>
-    <PackageReference Include="MudBlazor" Version="9.*" />
+    <PackageReference Include="MudBlazor" />
   </ItemGroup>
 </Project>
