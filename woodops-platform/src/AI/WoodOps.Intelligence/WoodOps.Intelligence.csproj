@@ -1,14 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
     <ProjectReference Include="..\..\Core\WoodOps.Application\WoodOps.Application.csproj" />
     <ProjectReference Include="..\..\Core\WoodOps.Contracts\WoodOps.Contracts.csproj" />
     <ProjectReference Include="..\..\Infrastructure\WoodOps.Retrieval\WoodOps.Retrieval.csproj" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
+  <PropertyGroup></PropertyGroup>
 </Project>

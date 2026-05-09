@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>d2c06862-de18-4678-b3ca-c1bc40470f46</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\WoodOps.Application\WoodOps.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\WoodOps.Persistence\WoodOps.Persistence.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\WoodOps.Cache\WoodOps.Cache.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\WoodOps.Messaging\WoodOps.Messaging.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\WoodOps.Observability\WoodOps.Observability.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\WoodOps.Runtime\WoodOps.Runtime.csproj" />
+  </ItemGroup>
+
+</Project>

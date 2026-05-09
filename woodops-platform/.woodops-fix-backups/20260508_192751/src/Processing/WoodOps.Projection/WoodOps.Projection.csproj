@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\WoodOps.Application\WoodOps.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\WoodOps.Persistence\WoodOps.Persistence.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\WoodOps.Graph\WoodOps.Graph.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\WoodOps.Retrieval\WoodOps.Retrieval.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
