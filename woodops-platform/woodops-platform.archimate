@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="WoodOps-Platform" id="id-15a8fce8a5af47a2a60b89742ec0e073" version="5.0.0">
+  <folder name="Strategy" id="id-87f19920fac34139bcbe06de2379fcf6" type="strategy"/>
+  <folder name="Business" id="id-025ec5117f974aae8461cd412da8b90c" type="business"/>
+  <folder name="Application" id="id-08882370f4ab4ead82908bcbf8653041" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-dd3da70f99d6426ca789d98d391acaa0" type="technology"/>
+  <folder name="Motivation" id="id-ac64366481ba4ae0b6c53960ee1a9458" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-f6ae53e01caa469f8171f17194b44895" type="implementation_migration"/>
+  <folder name="Other" id="id-9a7d9e40c3244152a42b606b7b9a01ef" type="other"/>
+  <folder name="Relations" id="id-7b007184b1e44907a7013490bb876940" type="relations"/>
+  <folder name="Views" id="id-f27162411eb0464ba469b6d65b1fae70" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-035caf430b5a4f3b861ae964c3108111"/>
+  </folder>
+</archimate:model>
