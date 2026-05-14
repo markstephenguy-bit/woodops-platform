@@ -12,7 +12,4 @@
   <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\Core\WoodOps.Application\WoodOps.Application.csproj" />
-  </ItemGroup>
 </Project>

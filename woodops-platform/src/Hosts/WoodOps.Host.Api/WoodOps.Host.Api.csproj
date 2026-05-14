@@ -9,7 +9,6 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\WoodOps.Application\WoodOps.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\WoodOps.Persistence\WoodOps.Persistence.csproj" />
     <ProjectReference Include="..\..\Infrastructure\WoodOps.Cache\WoodOps.Cache.csproj" />
     <ProjectReference Include="..\..\Infrastructure\WoodOps.Messaging\WoodOps.Messaging.csproj" />

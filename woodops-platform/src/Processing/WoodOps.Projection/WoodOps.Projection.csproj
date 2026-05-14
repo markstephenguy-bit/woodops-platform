@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\WoodOps.Application\WoodOps.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\WoodOps.Persistence\WoodOps.Persistence.csproj" />
     <ProjectReference Include="..\..\Infrastructure\WoodOps.Graph\WoodOps.Graph.csproj" />
     <ProjectReference Include="..\..\Infrastructure\WoodOps.Retrieval\WoodOps.Retrieval.csproj" />

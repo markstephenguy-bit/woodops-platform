@@ -9,7 +9,6 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\WoodOps.Application\WoodOps.Application.csproj" />
     <ProjectReference Include="..\..\Processing\WoodOps.Ingest\WoodOps.Ingest.csproj" />
     <ProjectReference Include="..\..\Infrastructure\WoodOps.Messaging\WoodOps.Messaging.csproj" />
     <ProjectReference Include="..\..\Infrastructure\WoodOps.Observability\WoodOps.Observability.csproj" />

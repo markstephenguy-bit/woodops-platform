@@ -30,6 +30,7 @@
   <Folder Name="/Processing/">
     <Project Path="src/Processing/WoodOps.Ingest/WoodOps.Ingest.csproj" />
     <Project Path="src/Processing/WoodOps.Projection/WoodOps.Projection.csproj" />
+    <Project Path="WoodOps.Knowledge/WoodOps.Knowledge.csproj" Id="e3a6270f-43dd-4cec-b06e-dc7b63d6b170" />
   </Folder>
   <Folder Name="/Tests/">
     <Project Path="tests/WoodOps.Application.Tests/WoodOps.Application.Tests.csproj" />
