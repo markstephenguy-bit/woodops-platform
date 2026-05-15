@@ -2,8 +2,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
     <ProjectReference Include="..\..\Infrastructure\WoodOps.Persistence\WoodOps.Persistence.csproj" />
-    <ProjectReference Include="..\..\Infrastructure\WoodOps.Graph\WoodOps.Graph.csproj" />
-    <ProjectReference Include="..\..\Infrastructure\WoodOps.Retrieval\WoodOps.Retrieval.csproj" />
   </ItemGroup>
   <PropertyGroup></PropertyGroup>
 </Project>

@@ -1,7 +1,4 @@
 <Solution>
-  <Folder Name="/AI/">
-    <Project Path="src/AI/WoodOps.Intelligence/WoodOps.Intelligence.csproj" />
-  </Folder>
   <Folder Name="/Core/">
     <Project Path="src/Core/WoodOps.Application/WoodOps.Application.csproj" />
     <Project Path="src/Core/WoodOps.Contracts/WoodOps.Contracts.csproj" />
@@ -16,11 +13,9 @@
   </Folder>
   <Folder Name="/Infrastructure/">
     <Project Path="src/Infrastructure/WoodOps.Cache/WoodOps.Cache.csproj" />
-    <Project Path="src/Infrastructure/WoodOps.Graph/WoodOps.Graph.csproj" />
     <Project Path="src/Infrastructure/WoodOps.Messaging/WoodOps.Messaging.csproj" />
     <Project Path="src/Infrastructure/WoodOps.Observability/WoodOps.Observability.csproj" />
     <Project Path="src/Infrastructure/WoodOps.Persistence/WoodOps.Persistence.csproj" />
-    <Project Path="src/Infrastructure/WoodOps.Retrieval/WoodOps.Retrieval.csproj" />
     <Project Path="src/Infrastructure/WoodOps.Runtime/WoodOps.Runtime.csproj" />
     <Project Path="src/Infrastructure/WoodOps.Storage/WoodOps.Storage.csproj" />
   </Folder>
@@ -29,7 +24,6 @@
   </Folder>
   <Folder Name="/Processing/">
     <Project Path="src/Processing/WoodOps.Ingest/WoodOps.Ingest.csproj" />
-    <Project Path="src/Processing/WoodOps.Projection/WoodOps.Projection.csproj" />
     <Project Path="WoodOps.Knowledge/WoodOps.Knowledge.csproj" Id="e3a6270f-43dd-4cec-b06e-dc7b63d6b170" />
   </Folder>
   <Folder Name="/Tests/">
